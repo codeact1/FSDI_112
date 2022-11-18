@@ -1,12 +1,24 @@
 {% extends 'base.html'%}
+{% load static %}
 
 {% block title %}About{% endblock title %}
 
 {% block content %}
-<h1>About me</h1>
-<p>I am alot of things but the most accurate thing is that I'm becoming more and more everyday. But the greatest thing
-    is I use my powers for good. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, nam fugit? Dolor
-    quia, nulla deserunt quidem sit vel vitae in facere laboriosam accusamus dignissimos soluta incidunt tempore tempora
-    quasi. Ipsam unde tempora in! Debitis, itaque fugit. Corporis, nesciunt repudiandae sapiente et maiores iusto
-    blanditiis reiciendis dicta iure neque enim tempore? </p>
+<div>
+    <h1>About me</h1>
+    <p>I am alot of things but the most accurate thing is that I'm becoming more and more everyday. But the greatest
+        thing
+        is I use my powers for good. The picture saids it all... Many cracks and imperfections but stong and supportive.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+        Voluptate, nam fugit?
+        Dolor
+        quia, nulla deserunt quidem sit vel vitae in facere laboriosam accusamus dignissimos soluta incidunt tempore
+        tempora
+        quasi. Ipsam unde tempora in! Debitis, itaque fugit. Corporis, nesciunt repudiandae sapiente et maiores iusto
+        blanditiis reiciendis dicta iure neque enim tempore?
+    </p>
+</div>
+<div>
+    <img class="about-img" src="{% static 'img/brickpic.webp' %}">
+</div>
 {% endblock content %}
